@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "reset.css";
+@import "module.css";
+html{
+  background-color: #fff;
+}
+.w-100{
+  width: 100%;
+}
+/*flex布局*/
+.d-flex{
+  display: flex;
+}
+/* 水平居中 */
+.flex-justify-content{
+  justify-content: center;
+}
+/* 两端排列 */
+.justify-content-between{
+  justify-content: space-between;
+}
+/* 竖直居中 */
+.align-items-center{
+  align-items: center;
+}
+/* x轴转化为y轴 */
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-warp{
+  flex-wrap: wrap;
+}
+
+/*内边距*/
+.pt-10{
+  padding-top: 10px
+}
+.pr-10{
+  padding-right: 10px;
+}
+
+/*外边距*/
+.mt-10{
+  margin-top: 10px;
+}
+
+/*文字大小*/
+.font-10{
+  font-size: 12px;
+  -webkit-transform:scale(0.8);
+  transform: scale(0.8);
+}
+.font-12{
+  font-size: 12px;
+}
+.font-16{
+  font-size: 16px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-24{
+  font-size: 24px;
+}
+
+/*文字颜色*/
+.color-fff{
+  color: #ffffff;
+}
+.color-E6E6E6{
+  color:#E6E6E6;
+}
+
+/*行高*/
+.line-h18{
+  line-height: 18px;
+}
+
+/*溢出隐藏*/
+.text-overflow{
+  white-space : nowrap;
+  overflow: hidden;
+  text-overflow : ellipsis;
+}
+/*高度*/
+.hei_60{
+   height: 60px;
+ }
+/*定位*/
+.posi-rela{
+  position: relative;
+}
+.posi-abso{
+  position: absolute;
+}
