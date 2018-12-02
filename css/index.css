@@ -1,0 +1,60 @@
+/* 整个内容样式 */
+.main{
+    width: 1440px;
+    height: 1000px;
+    background: url('../image/bg.png');
+}
+/* 左边第一块内容 样式 star*/
+.main_left{
+    width: 300px;
+}
+.main_Left_First{
+    
+    height: 132px;
+    padding-top: 9px;
+    padding-left: 21px;
+    border-bottom: 1px solid rgba(123,127,142, 0.3)
+}
+/* 图标左边样式 */
+.logo_left{
+    width: 86px;
+    height: 86px;
+}
+/* 图标右边样式 */
+.logo_right {
+    width: 179px;
+    height: 86px;
+}
+.round{
+    width: 8px;
+    height: 8px;
+    border: 2px solid #63FDB6;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 0 #047F46;
+}
+/* 左边第一块内容 样式 endr*/
+
+/* 左边第二块内容 样式 star*/
+.main_Left_Second{
+    height: 148px;
+    border-bottom: 1px solid rgba(123,127,142, 0.3)
+}
+.circle{
+    width: 20px;
+    height: 5px;
+}
+.circle div{
+    width: 5px;
+    height: 5px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+
+.type ul .tagLi{
+    min-width: 64px;
+}
+.type ul li.addition{
+    min-width: 10px;
+    padding: 0 20px;
+    border: 2px solid #FFFFFF;
+}

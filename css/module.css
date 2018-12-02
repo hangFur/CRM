@@ -1,1 +1,38 @@
+.smallLogo{
+    width: 25px;
+    height: 25px;
+    background: #666666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.tagLi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0 12px;
+}
+.leftTopTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+    color: #fff;
+    font-size: 12px;
+}
+.leftTopTitle .circle{
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    height: 5px;
+}
+.leftTopTitle .circle div{
+    width: 5px;
+    height: 5px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
