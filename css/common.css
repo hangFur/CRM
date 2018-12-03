@@ -141,6 +141,8 @@ body{
 .posi-abso{
   position: absolute;
 }
+
+/* 文字水平居中 */
 .text-alian{
   text-align: center;
 }

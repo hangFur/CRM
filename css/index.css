@@ -67,16 +67,28 @@
 .main_Left_Third .left_Body ul li{
     margin-right: 20px;
     margin-top: 20px;
+    padding-bottom: 5px;
     border-bottom: 1px solid rgba(13,202,114, 0.8)
 }
 .stars{
     padding: 30px 50px  60px;
 }
-.score{
+.red{
+    width: 100%;
     height: 69px;
-    padding-top: 12px;
-    margin-top: -43px;
-    border-top: 1px solid rgba(123,127,142, 0.3);
+    border: 1px solid red;
+    margin-top: -45px;
+}
+.green_one{
+    width: 50%;
+    text-align: center;
+    line-height: 69px;
+    border-right: 1px solid green;
     
-    
+}
+.green_two{
+    width: 50%;
+    text-align: center;
+    line-height: 69px;
+   
 }
