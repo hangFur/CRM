@@ -4,7 +4,7 @@ function setInnerText(element,txt) {
         //IE8
         element.innerText=txt;
     }else{
-        //谷歌或者火狐
+        //谷歌或者火狐12312
         element.textContent=txt;
     }
 }
